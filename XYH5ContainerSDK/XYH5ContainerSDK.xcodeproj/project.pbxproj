@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EC14C661D20FFE6006D9047 /* H5Container.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC14C5C1D20FFE6006D9047 /* H5Container.m */; };
+		2EC14C671D20FFE6006D9047 /* H5LaunchParamObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC14C5E1D20FFE6006D9047 /* H5LaunchParamObject.m */; };
+		2EC14C681D20FFE6006D9047 /* XYH5ContainerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC14C611D20FFE6006D9047 /* XYH5ContainerTool.m */; };
+		2EC14C691D20FFE6006D9047 /* XYH5ContainerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC14C631D20FFE6006D9047 /* XYH5ContainerVC.m */; };
+		2EC14C6A1D20FFE6006D9047 /* XYH5MessageHanderMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC14C651D20FFE6006D9047 /* XYH5MessageHanderMgr.m */; };
+		2EC14DC41D26428D006D9047 /* XYH5ContainerNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC14DC31D26428D006D9047 /* XYH5ContainerNavigationBar.m */; };
+		2EC14DD51D26648F006D9047 /* xyh5container.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EC14DC61D264452006D9047 /* xyh5container.jpg */; };
+		2EC14DD61D26648F006D9047 /* XYH5ContainerNavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EC14DC91D2659EB006D9047 /* XYH5ContainerNavigationBar.xib */; };
+		2EC14DDE1D266AD6006D9047 /* XYH5ContainerBundleTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC14DDD1D266AD6006D9047 /* XYH5ContainerBundleTools.m */; };
+		2EC14DDF1D266AD6006D9047 /* XYH5ContainerBundleTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC14DDD1D266AD6006D9047 /* XYH5ContainerBundleTools.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2EC14C4C1D20FFB6006D9047 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2EC14C4E1D20FFB6006D9047 /* libXYH5ContainerSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXYH5ContainerSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EC14C5B1D20FFE6006D9047 /* H5Container.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = H5Container.h; sourceTree = "<group>"; };
+		2EC14C5C1D20FFE6006D9047 /* H5Container.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = H5Container.m; sourceTree = "<group>"; };
+		2EC14C5D1D20FFE6006D9047 /* H5LaunchParamObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = H5LaunchParamObject.h; sourceTree = "<group>"; };
+		2EC14C5E1D20FFE6006D9047 /* H5LaunchParamObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = H5LaunchParamObject.m; sourceTree = "<group>"; };
+		2EC14C5F1D20FFE6006D9047 /* XYH5ContainerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYH5ContainerConfig.h; sourceTree = "<group>"; };
+		2EC14C601D20FFE6006D9047 /* XYH5ContainerTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYH5ContainerTool.h; sourceTree = "<group>"; };
+		2EC14C611D20FFE6006D9047 /* XYH5ContainerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYH5ContainerTool.m; sourceTree = "<group>"; };
+		2EC14C621D20FFE6006D9047 /* XYH5ContainerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYH5ContainerVC.h; sourceTree = "<group>"; };
+		2EC14C631D20FFE6006D9047 /* XYH5ContainerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYH5ContainerVC.m; sourceTree = "<group>"; };
+		2EC14C641D20FFE6006D9047 /* XYH5MessageHanderMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYH5MessageHanderMgr.h; sourceTree = "<group>"; };
+		2EC14C651D20FFE6006D9047 /* XYH5MessageHanderMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYH5MessageHanderMgr.m; sourceTree = "<group>"; };
+		2EC14D751D23BFA6006D9047 /* XYH5ContainerHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYH5ContainerHeader.h; sourceTree = "<group>"; };
+		2EC14D761D23E88B006D9047 /* bridge.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bridge.js; sourceTree = "<group>"; };
+		2EC14DC21D26428D006D9047 /* XYH5ContainerNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYH5ContainerNavigationBar.h; sourceTree = "<group>"; };
+		2EC14DC31D26428D006D9047 /* XYH5ContainerNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYH5ContainerNavigationBar.m; sourceTree = "<group>"; };
+		2EC14DC61D264452006D9047 /* xyh5container.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xyh5container.jpg; sourceTree = "<group>"; };
+		2EC14DC91D2659EB006D9047 /* XYH5ContainerNavigationBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYH5ContainerNavigationBar.xib; sourceTree = "<group>"; };
+		2EC14DCF1D266460006D9047 /* XYH5Container.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYH5Container.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EC14DD11D266460006D9047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EC14DDC1D266AD6006D9047 /* XYH5ContainerBundleTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYH5ContainerBundleTools.h; sourceTree = "<group>"; };
+		2EC14DDD1D266AD6006D9047 /* XYH5ContainerBundleTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYH5ContainerBundleTools.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EC14C4B1D20FFB6006D9047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EC14DCC1D266460006D9047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EC14C451D20FFB6006D9047 = {
+			isa = PBXGroup;
+			children = (
+				2EC14C501D20FFB6006D9047 /* XYH5ContainerSDK */,
+				2EC14DD01D266460006D9047 /* XYH5Container */,
+				2EC14C4F1D20FFB6006D9047 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2EC14C4F1D20FFB6006D9047 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EC14C4E1D20FFB6006D9047 /* libXYH5ContainerSDK.a */,
+				2EC14DCF1D266460006D9047 /* XYH5Container.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EC14C501D20FFB6006D9047 /* XYH5ContainerSDK */ = {
+			isa = PBXGroup;
+			children = (
+				2EC14D761D23E88B006D9047 /* bridge.js */,
+				2EC14DC61D264452006D9047 /* xyh5container.jpg */,
+				2EC14DDC1D266AD6006D9047 /* XYH5ContainerBundleTools.h */,
+				2EC14DDD1D266AD6006D9047 /* XYH5ContainerBundleTools.m */,
+				2EC14C5B1D20FFE6006D9047 /* H5Container.h */,
+				2EC14C5C1D20FFE6006D9047 /* H5Container.m */,
+				2EC14C5D1D20FFE6006D9047 /* H5LaunchParamObject.h */,
+				2EC14C5E1D20FFE6006D9047 /* H5LaunchParamObject.m */,
+				2EC14C5F1D20FFE6006D9047 /* XYH5ContainerConfig.h */,
+				2EC14C601D20FFE6006D9047 /* XYH5ContainerTool.h */,
+				2EC14C611D20FFE6006D9047 /* XYH5ContainerTool.m */,
+				2EC14C621D20FFE6006D9047 /* XYH5ContainerVC.h */,
+				2EC14C631D20FFE6006D9047 /* XYH5ContainerVC.m */,
+				2EC14D751D23BFA6006D9047 /* XYH5ContainerHeader.h */,
+				2EC14C641D20FFE6006D9047 /* XYH5MessageHanderMgr.h */,
+				2EC14C651D20FFE6006D9047 /* XYH5MessageHanderMgr.m */,
+				2EC14DC21D26428D006D9047 /* XYH5ContainerNavigationBar.h */,
+				2EC14DC31D26428D006D9047 /* XYH5ContainerNavigationBar.m */,
+				2EC14DC91D2659EB006D9047 /* XYH5ContainerNavigationBar.xib */,
+			);
+			path = XYH5ContainerSDK;
+			sourceTree = "<group>";
+		};
+		2EC14DD01D266460006D9047 /* XYH5Container */ = {
+			isa = PBXGroup;
+			children = (
+				2EC14DD11D266460006D9047 /* Info.plist */,
+			);
+			path = XYH5Container;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EC14C4D1D20FFB6006D9047 /* XYH5ContainerSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EC14C571D20FFB6006D9047 /* Build configuration list for PBXNativeTarget "XYH5ContainerSDK" */;
+			buildPhases = (
+				2EC14C4A1D20FFB6006D9047 /* Sources */,
+				2EC14C4B1D20FFB6006D9047 /* Frameworks */,
+				2EC14C4C1D20FFB6006D9047 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XYH5ContainerSDK;
+			productName = XYH5ContainerSDK;
+			productReference = 2EC14C4E1D20FFB6006D9047 /* libXYH5ContainerSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2EC14DCE1D266460006D9047 /* XYH5Container */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EC14DD21D266460006D9047 /* Build configuration list for PBXNativeTarget "XYH5Container" */;
+			buildPhases = (
+				2EC14DCB1D266460006D9047 /* Sources */,
+				2EC14DCC1D266460006D9047 /* Frameworks */,
+				2EC14DCD1D266460006D9047 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XYH5Container;
+			productName = XYH5Container;
+			productReference = 2EC14DCF1D266460006D9047 /* XYH5Container.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EC14C461D20FFB6006D9047 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jafar MacPro";
+				TargetAttributes = {
+					2EC14C4D1D20FFB6006D9047 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					2EC14DCE1D266460006D9047 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 2EC14C491D20FFB6006D9047 /* Build configuration list for PBXProject "XYH5ContainerSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2EC14C451D20FFB6006D9047;
+			productRefGroup = 2EC14C4F1D20FFB6006D9047 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EC14C4D1D20FFB6006D9047 /* XYH5ContainerSDK */,
+				2EC14DCE1D266460006D9047 /* XYH5Container */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EC14DCD1D266460006D9047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EC14DD51D26648F006D9047 /* xyh5container.jpg in Resources */,
+				2EC14DD61D26648F006D9047 /* XYH5ContainerNavigationBar.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EC14C4A1D20FFB6006D9047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EC14C6A1D20FFE6006D9047 /* XYH5MessageHanderMgr.m in Sources */,
+				2EC14DC41D26428D006D9047 /* XYH5ContainerNavigationBar.m in Sources */,
+				2EC14C661D20FFE6006D9047 /* H5Container.m in Sources */,
+				2EC14C681D20FFE6006D9047 /* XYH5ContainerTool.m in Sources */,
+				2EC14C691D20FFE6006D9047 /* XYH5ContainerVC.m in Sources */,
+				2EC14C671D20FFE6006D9047 /* H5LaunchParamObject.m in Sources */,
+				2EC14DDE1D266AD6006D9047 /* XYH5ContainerBundleTools.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EC14DCB1D266460006D9047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EC14DDF1D266AD6006D9047 /* XYH5ContainerBundleTools.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2EC14C551D20FFB6006D9047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2EC14C561D20FFB6006D9047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EC14C581D20FFB6006D9047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_BITCODE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2EC14C591D20FFB6006D9047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_BITCODE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2EC14DD31D266460006D9047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = XYH5Container/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = Jafar.XYH5Container;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		2EC14DD41D266460006D9047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = XYH5Container/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = Jafar.XYH5Container;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EC14C491D20FFB6006D9047 /* Build configuration list for PBXProject "XYH5ContainerSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EC14C551D20FFB6006D9047 /* Debug */,
+				2EC14C561D20FFB6006D9047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EC14C571D20FFB6006D9047 /* Build configuration list for PBXNativeTarget "XYH5ContainerSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EC14C581D20FFB6006D9047 /* Debug */,
+				2EC14C591D20FFB6006D9047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EC14DD21D266460006D9047 /* Build configuration list for PBXNativeTarget "XYH5Container" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EC14DD31D266460006D9047 /* Debug */,
+				2EC14DD41D266460006D9047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EC14C461D20FFB6006D9047 /* Project object */;
+}
